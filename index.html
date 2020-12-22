@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>IACCESS</title>
+  <link href="https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="a11y.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <a class="anchor" id="zero"></a>
+
+
+  <header class="container p--small">
+    <div class="container__inner flex flex-align">
+
+      <a class="logo" href="#zero">
+        <img src="./bilder/accessibility.svg" alt="zurück zur Startseite">
+      </a>
+      <div class="menuButton">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav>
+        <ul class="flex flex-wrap navBar">
+          <li><a href="#one">Vorstellung</a></li>
+          <li><a href="#two">Soll-Ist</a></li>
+          <li><a href="#three">FAQ</a></li>
+          <li><a href="#four">Finanzierung</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hier kommt der Hauptinhalt unserer Webseite -->
+  <main>
+
+    <section class="container container--branded text--center p--big">
+      <div class="container__inner">
+        <h1 class="mb-0">IAccess</h1>
+        <p class="lead">Der erste Browser für barrierefreien Inhalt!</p>
+
+        <a class="button mt-1" href="#">Browser downloaden</a>
+
+        <!--<img class="img--fullw" src="./bilder/hero.svg" role="presentation">-->
+
+      </div>
+    </section>
+
+    <a class="anchor" id="one"></a>
+    <section class="container p--big">
+      <div class="container__inner flex col-2 flex-align">
+
+
+        <div class="left">
+          <h2>Wer wir sind und was wir wollen!</h2>
+
+          <p>IAccess ist ein Browser für alle. Unser Startup konzentriert sich auf Menschen mit jeglicher Form von
+            Behinderungen.
+            Einmal personalisiert und der Browser ist genau auf deine Bedürfnisse abgestimmt.
+          </p>
+        </div>
+
+        <div class="right">
+          <img class="img--fullw p-2" src="./bilder/hero.svg" role="presentation">
+        </div>
+
+
+      </div>
+    </section>
+
+    <a class="anchor" id="two"></a>
+    <section class="container container--branded p--big">
+      <div class="container__inner flex col-2">
+
+        <div class="left">
+          <h2>So ist die Situation jetzt</h2>
+
+          <ul>
+            <li>Weltweit gibt es viele Menschen mit Behinderungen, die das Internet nicht alleine nutzen können.</li>
+            <li>Diese Leute brauchen Hilfe von anderen Menschen, um das Internet zu surfen, oder sie Können es alleine
+              Tun, aber mit großen Schwierigkeiten.</li>
+            <li>Die Webseiten-Anbieter (z.B: onlineshops) möchten ,dass alle menschen auf ihren Webseiten zugreifen
+              können und die Webseiten-Funktionen ausnutzen können.</li>
+          </ul>
+        </div>
+
+        <div class="right">
+          <h2>So soll Sie sein</h2>
+          <ul>
+            <li>Der Browser soll es Menschen mit Behinderungen ermöglichen sich im Internet zurechtzufinden.</li>
+            <li>Die Webseiten-Anbieter (z.B: onlineshops) möchten ,dass alle menschen auf ihren Webseiten zugreifen
+              können und die Webseiten-Funktionen ausnutzen können.</li>
+            <li>Videos mit Untertiteln auf Websites für Personen mit Hörbehinderungen</li>
+          </ul>
+
+
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <a class="anchor" id="three"></a>
+    <section class="container text--center p--big">
+      <div class="container__inner">
+
+        <h2 class="mb-2">FAQ</h2>
+
+        <div id="accordionGroup" class="Accordion">
+          <h3>
+            <button aria-expanded="true" class="Accordion-trigger" aria-controls="sect1" id="accordion1id">
+              <span class="Accordion-title font-weight-700">
+                Was ist digitale Barrierefreiheit
+                <span class="Accordion-icon"></span>
+              </span>
+            </button>
+          </h3>
+          <div id="sect1" role="region" aria-labelledby="accordion1id" class="Accordion-panel">
+            <div>
+              Barrierefreiheit kennt man eher nur bei Gebäuden und im öffentlichen Raum. Ob zum Beispiel ein Lift oder
+              eine Treppe rollstuhlgerecht ist wie man es hier sieht. und manchen ist vielleicht sogar Brailschrift
+              aufgefallen die in öffentlichen Gebäuden angebracht ist.
+              Digitale Barrierefreiheit ist im Prinzip das gleiche nur im Internet
+
+            </div>
+          </div>
+          <h3>
+            <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect2" id="accordion2id">
+              <span class="Accordion-title font-weight-700">
+                Das betrifft ja nur ein paar Prozent.
+                <span class="Accordion-icon"></span>
+              </span>
+            </button>
+          </h3>
+          <div id="sect2" role="region" aria-labelledby="accordion2id" class="Accordion-panel" hidden="">
+            <div>
+              Das ist ein Irrglaube. Über 15% der Bevölkerung würde den Inhalt barrierefrei benötigen.
+
+            </div>
+          </div>
+          <h3>
+            <button aria-expanded="false" class="Accordion-trigger" aria-controls="sect3" id="accordion3id">
+              <span class="Accordion-title font-weight-700">
+                Was genau bringt ein eigener Browser?
+                <span class="Accordion-icon"></span>
+              </span>
+            </button>
+          </h3>
+          <div id="sect3" role="region" aria-labelledby="accordion3id" class="Accordion-panel" hidden="">
+            <div>
+              Mit IAccess ist es möglich, genaue Einstellungen zu tätigen welche Behinderungen Sie haben. Der Browser
+              bereitet die Inhalte dann genau auf Ihre Bedürfnisse an.
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+    </section>
+
+
+    <a class="anchor" id="four"></a>
+    <section class="container p--big">
+      <div class="container__inner flex col-2 flex-align">
+
+        <div class="left">
+          <h2>Wie werden wir finanziert?</h2>
+
+          <p>Transparenz ist uns ein großes Anliegen. Obwohl unser Schwerpunkt auf Barrierefreiheit liegt, ist uns auch
+            Datenschutz ein großes Anliegen.
+          </p>
+
+
+        </div>
+
+        <div class="right">
+          <img class="img--fullw p-2" src="./bilder/savings.svg" role="presentation">
+        </div>
+
+
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- Hier ist unser Footer bzw. die Fußzeile, welche auch wieder auf allen Unterseiten angezeigt wird. -->
+
+  <footer class="container p--small">
+    <div class="container__inner flex flex-wrap">
+      <p>©IACCESS PM4</p>
+      <p>Impressum</p>
+      <p>Kontakt</p>
+      <p>Datenschutz</p>
+
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="a11y.js"></script>
+  <script src="responsiveMenuButton.js"></script>
+
+</body>
+
+</html>
